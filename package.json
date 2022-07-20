@@ -4,6 +4,10 @@
   "description": "Lycolia's eslint-config",
   "author": "Lycolia",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lycolia/eslint-config"
+  },
   "keywords": [
     "typescript",
     "eslint-config",
