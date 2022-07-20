@@ -3,5 +3,11 @@
   "version": "0.1.0",
   "description": "Lycolia's eslint-config",
   "author": "Lycolia",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "eslint-config",
+    "eslint",
+    "config"
+  ]
 }
