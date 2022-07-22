@@ -18,7 +18,6 @@ module.exports = {
       },
     ],
     // Disallow await inside of loops, should use Promise.all()
-    // Disallow await inside of loops, should use Promise.all()
     'no-await-in-loop': 'error',
     // Allow non-explicit return types on functions and class methods
     '@typescript-eslint/explicit-function-return-type': 'off',
