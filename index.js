@@ -26,7 +26,16 @@ module.exports = {
     // Disallow usage of the any type
     '@typescript-eslint/no-explicit-any': 1,
     // Restricts the types allowed in boolean expressions
-    '@typescript-eslint/strict-boolean-expressions': 'error',
+    '@typescript-eslint/strict-boolean-expressions': ['error', {
+      'allowString': false,
+      'allowNumber': false,
+      'allowNullableObject': false,
+      'allowNullableBoolean': false,
+      'allowNullableString': false,
+      'allowNullableNumber': false,
+      'allowAny': false,
+      'allowRuleToRunWithoutStrictNullChecksIKnowWhatIAmDoing': false
+    }],
     // Disallows explicit type declarations for variables or parameters initialized to a number, string, or boolean
     '@typescript-eslint/no-inferrable-types': [
       'error',
