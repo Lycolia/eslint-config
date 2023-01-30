@@ -1,5 +1,6 @@
 module.exports = {
   rules: {
+    eqeqeq: 'error',
     // Enforce the consistent use of either backticks, double, or single quotes
     quotes: ['error', 'single'],
     // Enforce the consistent use of either function declarations or expressions
