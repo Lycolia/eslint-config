@@ -18,6 +18,8 @@ module.exports = {
         checkForEach: true,
       },
     ],
+    // Allow using namespace
+    '@typescript-eslint/no-namespace': 'no',
     // Allow non-explicit return types on functions and class methods
     '@typescript-eslint/explicit-function-return-type': 'off',
     // Allow non-explicit return types on exported functions
