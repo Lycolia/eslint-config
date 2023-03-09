@@ -19,7 +19,7 @@ module.exports = {
       },
     ],
     // Allow using namespace
-    '@typescript-eslint/no-namespace': 'no',
+    '@typescript-eslint/no-namespace': 'off',
     // Allow non-explicit return types on functions and class methods
     '@typescript-eslint/explicit-function-return-type': 'off',
     // Allow non-explicit return types on exported functions
