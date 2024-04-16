@@ -7,7 +7,7 @@ module.exports = {
     quotes: ['error', 'single'],
     // 関数宣言の代わりに関数式の使用を強制
     // アロー関数を許容
-    // アロー関数の強制はできないのでお気持ち程度。const hoge = functionを禁止するだけなので、function hogeは書ける
+    // アロー関数の強制はできないのでお気持ち程度
     'func-style': [
       'error',
       'expression',
